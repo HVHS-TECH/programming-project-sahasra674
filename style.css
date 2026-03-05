@@ -3,14 +3,14 @@ ul {
   margin: 0;
   padding: 0;
   position: fixed;
-  top: 0;
-  width: 100%;
+  /* top: 50%; */
+  width: 5%;
   background-color: #f1f1f1;
   z-index: 1000;
 }
 
 li {
-  float: left;
+  float: center;
 }
 
 li a {
@@ -27,14 +27,3 @@ li a:hover,
 .active {
   background-color: white;
 }
-
-a:link, a:visited {
-  background-color: #f1f1f1;
-  color: #5b738c;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-
