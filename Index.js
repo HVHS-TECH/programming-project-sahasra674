@@ -1,7 +1,7 @@
 /*******************************************************/
 function setup() {
 	
-
+console.log("JS is working");
   // Now the width and height of the canvas keep changing
 width = random(600,600);
 height = random(600,600);
