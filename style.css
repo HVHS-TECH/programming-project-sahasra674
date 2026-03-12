@@ -1,0 +1,63 @@
+#canvas-background {
+  position: fixed;  /* fixed on screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;      /* behind all content */
+}
+
+/* Center the whole page content */
+body {
+  display: flex;
+  flex-direction: column;    /* Stack title and buttons */
+  justify-content: center;   /* Center vertically */
+  align-items: center;       /* Center horizontally */
+  height: 100vh;             /* Full viewport height */
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Page title styling */
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 40px;       /* Space between title and buttons */
+  text-align: center;
+}
+
+/* Container to stack buttons vertically */
+.button-container {
+  display: flex;
+  flex-direction: column;    /* Stack buttons on top of each other */
+  align-items: center;       /* Center buttons horizontally */
+  gap: 20px;                 /* Space between buttons */
+}
+
+/* Button styling */
+button {
+  background: linear-gradient(145deg, #4CAF50, #45a049);
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px #2e7d32;
+  transition: all 0.3s ease;
+  width: 180px;              /* Fixed width */
+}
+
+/* Hover effect */
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px #2e7d32;
+}
+
+/* Pressed effect */
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px #2e7d32;
+}
+
