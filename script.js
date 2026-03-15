@@ -5,6 +5,7 @@
 
 function setup() {
 
+  console.log
   // Canvas
   createCanvas(380, 600);
 
